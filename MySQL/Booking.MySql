@@ -1,0 +1,6 @@
+create table booking(
+passenger_name varchar(50),
+bus_no int,
+travel_date date
+);
+select * from booking;
