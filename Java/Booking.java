@@ -1,8 +1,9 @@
-package BusResv;
+package BusReservation;
 import java.util.*;
 import java.sql.SQLException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat; 
+
 public class Booking {
 	String passengerName;
 	int busNo;
