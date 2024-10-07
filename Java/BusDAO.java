@@ -1,6 +1,5 @@
-package BusResv;
+package BusReservation;
 import java.sql.*;
-
 public class BusDAO {
 	public void displayBusInfo() throws SQLException {
 		String query = "Select * from bus";
