@@ -1,4 +1,4 @@
-package BusResv;
+package BusReservation;
 
 public class Bus {
 	private int busNo;
@@ -29,5 +29,4 @@ public class Bus {
 	public void setCapacity(int cap) { //mutator
 		capacity = cap;
 	}
-	
 }
