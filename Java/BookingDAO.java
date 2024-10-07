@@ -1,10 +1,9 @@
-package BusResv;
+package BusReservation;
 import java.util.Date;
 import java.sql.*;
 
 public class BookingDAO {
-
-	public int getBookedCount(int busNo,Date date) throws SQLException{
+public int getBookedCount(int busNo,Date date) throws SQLException{
 		
 		String query = "select count(passenger_name) from booking where bus_no=? and travel_date=?";
 		Connection con = DbConnection.getConnection();
