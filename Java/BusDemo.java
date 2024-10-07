@@ -1,13 +1,10 @@
-package BusResv;
-
-import java.util.Scanner; //nested package/ hierarchical package
-
+package BusReservation;
+import java.util.Scanner;
 
 public class BusDemo {
 
-	public static void main(String[] args)  {
-		
-		BusDAO busdao = new BusDAO();
+	public static void main (String[] args ) {
+BusDAO busdao = new BusDAO();
 		
 		try {
 			busdao.displayBusInfo();
@@ -35,5 +32,4 @@ public class BusDemo {
 			System.out.println(e);
 		}
 	}
-
 }
